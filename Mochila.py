@@ -39,7 +39,7 @@ class Mochila:
         valor_elemento = self.informacion[elemento][0]
         peso_elemento = self.informacion[elemento][1]
 
-        if(self.peso + peso_elemento <= capacidad):
+        if(self.peso + peso_elemento <= self.capacidad and not(elemento in self.conjunto)):
             self.conjunto.add(elemento)
 
             # Tenemos que actualizar los pesos y valores de la mochila
@@ -52,7 +52,7 @@ class Mochila:
 
     # Función para mostrar los elementos de la mochila
     def toString(self):
-        return str(self.conjunto)
+        return "Peso: {p}, Valor:{v} : ".format(p = self.peso, v = self.valor)+str(self.conjunto)
 
     # Función para calcular el peso de la mochila
     def calcula_peso(self):
@@ -71,8 +71,13 @@ class Mochila:
     # Función para calcular el promedio de alguna de las variables del conjunto de información
     def calcula_promedio(self, numero):
         prom = 0.0
-        for elemento in self.informacion:
-            prom += self.informacion[elemento][numero]
-        return prom/len(self.informacion)
+        if(len(self.informacion) > 0):
+            for elemento in self.informacion:
+                prom += self.informacion[elemento][numero]
+            return prom/len(self.informacion)
+        return 0.0
 
     # Función objetivo a optimizar (utiliza los pesos y valores de la clase y no tiene que reelaborar cálculos)
+    '''
+    Necesitamos que la función que regrese un número positivo en caso en que la propuesta a nueva mochila sea mejor, un número negativo en caso opuesto.
+    '''

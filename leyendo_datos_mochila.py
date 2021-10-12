@@ -11,7 +11,7 @@ lineas = archivo.read().split("\n")
 
 datos_iniciales = lineas.pop(0).split(" ")
 
-capacidad = datos_iniciales[1]      # Variable que indica la capacidad de la mochila
+CAPACIDAD = int(datos_iniciales[1] )     # Variable que indica la capacidad de la mochila
 
 conjunto_objetos = {}
 
