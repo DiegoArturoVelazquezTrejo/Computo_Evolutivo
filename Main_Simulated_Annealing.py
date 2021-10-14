@@ -109,7 +109,7 @@ def FS(est, V):
 
     return copia
 
-MOptima, prom, objeto_maximo = Simulated_Annealing(T, conjunto_identificadores, F, FS, M0, IT0, decrece_temperatura, I, 1, "maximizar")
+MOptima, prom, objeto_maximo, objeto_minimo = Simulated_Annealing(T, conjunto_identificadores, F, FS, M0, IT0, decrece_temperatura, I, 1, "maximizar")
 
 # Resultados
 print("\n\n#### RESULTADOS ####")
@@ -117,7 +117,9 @@ print("Valor de la mochila inicial: ")
 print(M0.toString())
 print("Resultado del algoritmo SA: ")
 print(MOptima.toString())
-print("Promedio de las mochilas que se generaron en las iteraciones: ")
+print("Promedio de las mochilas que se generaron en las iteraciones: ", end="")
 print(prom)
 print("Objeto máximo en las iteraciones: ")
 print(objeto_maximo.toString())
+print("Objeto mínimo en las iteraciones: ")
+print(objeto_minimo.toString())

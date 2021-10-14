@@ -46,6 +46,8 @@ def Simulated_Annealing(T, V, F, Fs, I0, IT0, E, I, subiteraciones, tec= "minimi
 
     OBJETO_MAXIMO = I0
     VALOR_MAXIMO = act.valor
+    VALOR_MINIMO = act.valor
+    OBJETO_MINIMO = I0
 
     promedio_elementos_totales = 0.0
 
@@ -54,16 +56,20 @@ def Simulated_Annealing(T, V, F, Fs, I0, IT0, E, I, subiteraciones, tec= "minimi
         try:
             promedio_elementos_totales += est.valor
         except:
-            prompromedio_elementos_totales += 0
+            promedio_elementos_totales += 0
         # Alteración (propuesta) al algoritmo (Vamos a ir iterando más veces conforme la temperatura sea mayor)
         for i in range(0, subiteraciones):
-
+            print(est.toString())
             sig = Fs(est, V)   # La función nos seleccionará un elemento del conjunto de vecinos dado un elemento que ya tengamos
             delta_E = F(sig) - F(est) # Obtenemos la diferencia numérica entre el elemento que tenemos y el vecino del mismo
 
             if(F(sig) > VALOR_MAXIMO):
                 VALOR_MAXIMO = F(sig)
                 OBJETO_MAXIMO = sig.copia()
+
+            if(F(sig) < VALOR_MINIMO):
+                VALOR_MINIMO = F(sig)
+                OBJETO_MINIMO = sig.copia()
 
             # Según se desee maximizar o minimizar le función objetivo
             if(tec == "minimizar"):         # Caso en donde se desea minimizar la función objetivo
@@ -93,4 +99,4 @@ def Simulated_Annealing(T, V, F, Fs, I0, IT0, E, I, subiteraciones, tec= "minimi
         iteracion += 1     #Aumentamos el número de iteraciones
         act = est
         T = E(T)           # Actualizamos la temperatura dada la regla que se le ingrese como parámetro, es una función decreciente ya que queremos T -> 0
-    return act, promedio_elementos_totales/iteracion, OBJETO_MAXIMO
+    return act, promedio_elementos_totales/iteracion, OBJETO_MAXIMO, OBJETO_MINIMO
