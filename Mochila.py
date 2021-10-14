@@ -23,7 +23,10 @@ class Mochila:
 
     # Función para extraer un elemento de la mochila
     def obtiene_elemento(self):
-        elemento = self.conjunto.pop()      # Ver si es necesario una función shuffle para el set
+        lista = list(self.conjunto)
+        random.shuffle(lista)
+        elemento = lista.pop()
+        self.conjunto.remove(elemento)     # Ver si es necesario una función shuffle para el set
         # Tenemos que actualizar los pesos y valores de la mochila
         valor_elemento = self.informacion[elemento][0]
         peso_elemento = self.informacion[elemento][1]
@@ -38,17 +41,20 @@ class Mochila:
         # Tenemos que ver si el peso de la mochila es válido junto con el nuevo elemento
         valor_elemento = self.informacion[elemento][0]
         peso_elemento = self.informacion[elemento][1]
+        if(not self.verifica_elemento(elemento)):
+            if(self.peso + peso_elemento <= self.capacidad and not(elemento in self.conjunto)):
+                self.conjunto.add(elemento)
 
-        if(self.peso + peso_elemento <= self.capacidad and not(elemento in self.conjunto)):
-            self.conjunto.add(elemento)
+                # Tenemos que actualizar los pesos y valores de la mochila
+                self.valor += valor_elemento
+                self.peso += peso_elemento
 
-            # Tenemos que actualizar los pesos y valores de la mochila
-            self.valor += valor_elemento
-            self.peso += peso_elemento
+                return True
 
-            return True
+            else:
+                return False
         else:
-            return False
+            return False 
 
     # Función para mostrar los elementos de la mochila
     def toString(self):
@@ -60,6 +66,10 @@ class Mochila:
         for elemento in self.conjunto:
             peso += self.informacion[elemento][1]
         return peso
+
+    # Función para verificar si un elemento está en el conjunto
+    def verifica_elemento(self, elemento):
+        return elemento in self.conjunto
 
     # Función para calcular el valor de la mochila
     def calcula_valor(self):
@@ -77,7 +87,6 @@ class Mochila:
             return prom/len(self.informacion)
         return 0.0
 
-    # Función objetivo a optimizar (utiliza los pesos y valores de la clase y no tiene que reelaborar cálculos)
-    '''
-    Necesitamos que la función que regrese un número positivo en caso en que la propuesta a nueva mochila sea mejor, un número negativo en caso opuesto.
-    '''
+    # Función para generar una copia de la mochila
+    def copia(self):
+        return Mochila(self.conjunto.copy(), self.informacion, self.capacidad)
