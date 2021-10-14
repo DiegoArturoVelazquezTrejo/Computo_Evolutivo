@@ -13,9 +13,8 @@ from simulated_annealing import Simulated_Annealing
 # Variables que definiremos de acuerdo al problema
 T   = 350000
 IT0 = 1
-I   = 1000000
+I   = 5000
 BETTA = 1/10
-I0 = [0.0, 0.0] # Estado inicial
 
 infimo_X = -5
 infimo_Y = -10
