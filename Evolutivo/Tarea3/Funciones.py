@@ -12,7 +12,7 @@ def rast(X):
     return 10 * d + sum
 
 # Ackley Function
-def ackley(X, a, b, c):
+def ackley(X, a=5, b=2, c=1):
     d = len(X)
     xi_2 = 0
     cos = 0

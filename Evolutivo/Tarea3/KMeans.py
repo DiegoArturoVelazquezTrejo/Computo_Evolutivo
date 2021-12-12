@@ -114,10 +114,10 @@ class KMeans:
                 self.agrega_cluster(centroide, x)
             # Mandamos a llamar al método de actuliza_centroides
             self.actuliza_centroides()
-        for cluster in self.clusters:
-            print(self.clusters[cluster])
-            print(self.cantidad_elementos)
-        self.grafica()
+        #for cluster in self.clusters:
+        #    print(self.clusters[cluster])
+        #    print(self.cantidad_elementos)
+        #self.grafica()
 
     # Método para obtener los grupos para cada cluster
     # Regresa un arreglo de matrices
@@ -146,14 +146,14 @@ class KMeans:
             col+=1
         plt.show()
 
-
+'''
 # Ejemplo de ejecución
 
-tam_pob = 1000
-n_iter  = 100
+tam_pob = 5000
+n_iter  = 60
 k = 5
-radio_inicial = 10
-n_dim = 10
+radio_inicial = 30
+n_dim = 2
 
 poblacion = np.random.uniform(-radio_inicial, radio_inicial, (tam_pob, n_dim))
 
@@ -172,3 +172,4 @@ kmeans = KMeans(poblacion, k, n_iter)
 agrupaciones = kmeans.obtiene_agrupaciones()
 for agrupacion in agrupaciones:
     print(agrupacion)
+'''

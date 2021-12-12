@@ -14,19 +14,25 @@ import numpy as np
 @param: Bandera para indicar si se desea maximizar o minimizar
 @return: tupla (Vector ganador del método, Vector de diferencias)
 '''
-def shooting_method(v_critico, F, radio, N, bandera="Minimizar"):
+def shooting_method(v_critico, F, radio, N, bandera="minimizar"):
+    #print(radio)
     v_critico = np.array(v_critico)
     disparos = np.random.uniform(-radio, radio, (N, len(v_critico)))
     trayectos = np.array([v_critico for i in range(0, N)])
     nuevos_vectores = disparos + trayectos
     evaluaciones = np.array([F(nuevos_vectores[i]) for i in range(0, N)])
-    optimos = np.argwhere(evaluaciones >= F(v_critico)) if(bandera == "Maximizar") else np.argwhere(evaluaciones <= F(v_critico))
+    optimos = np.argwhere(evaluaciones >= F(v_critico)) if(bandera == "maximizar") else np.argwhere(evaluaciones <= F(v_critico))
+    #print(optimos)
     # Vamos a seleccionar un elemento de los que optimizan al punto minimo o máximo
     if(len(optimos) != 0):
+        #print("EXITO :: OBTENIENDO NUEVA TRAYECTORIA")
         index = random.choice(optimos)[0]
+        #print(len(disparos[index]))
+        #print(disparos[index])
         return nuevos_vectores[index], disparos[index]
     else:
-        return v_critico
+        #print("FAIL :: OBTENIENDO NUEVA TRAYECTORIA")
+        return v_critico, np.zeros(len(v_critico))
 
 # Método para actualizar todos los elementos de una población de un cluster K-ésimo
 '''
@@ -35,8 +41,12 @@ def shooting_method(v_critico, F, radio, N, bandera="Minimizar"):
 @return: Vectores trasladados
 '''
 def trasladar_vectores(P, v_dif):
-    vectores_diferencias = np.array([v_dif] for i in range(len(P)))
-    return P + v_dif
+    vectores_diferencias = []
+    for i in range(len(P)):
+        vectores_diferencias.append(v_dif)
+    vectores_diferencias = np.array(vectores_diferencias)
+    #print(vectores_diferencias)
+    return P + vectores_diferencias
 
 '''
 Para el genético:

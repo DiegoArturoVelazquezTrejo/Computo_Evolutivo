@@ -25,18 +25,45 @@ def seleccion_ruleta(aptitudes, n):
 
 # Cruza intermedia
 '''
+Algoritmo que se ejecuta sobre dos elementos
+
 @param P1 -> Arreglo de dimensión n
 @param P2 -> Arrelgo de dimensión n
 @return H1 -> Arreglo de dimensión n
 @return H2 -> Arreglo de dimensión n
 '''
-def cruza_intermedia(P1, P2, posicion, alfa = random.random()):
+def cruza_intermedia_s(P1, P2, posicion, alfa = random.random()):
     # Necesitamos que la longitud de ambos padres sea la misma
     if(len(P1) != len(P2)):
         return False
-    h1 = P1[:posicion]+[  alfa * P2[i] + (1 - alfa)*P1[i] for i in range(posicion, len(P2)) ]
-    h2 = P2[:posicion]+[  alfa * P1[i] + (1 - alfa)*P2[i] for i in range(posicion, len(P1)) ]
+    h1 = np.zeros(len(P1))
+    h2 = np.zeros(len(P2))
+    for i in range(len(P1)):
+        if(i < posicion):
+            h1[i] = P1[i]
+            h2[i] = P2[i]
+        else:
+            h1[i] = alfa * P2[i] + (1 - alfa)*P1[i]
+            h2[i] = alfa * P1[i] + (1 - alfa)*P2[i]
     return h1, h2
+
+# Extensión de cruza intermedia para un conjunto de elementos de población
+def cruza_intermedia(indices, poblacion, posicion, alfa = random.random()):
+    nueva_poblacion = []
+    # Ejecutarlo sobre toda una matriz de elementos
+    if(len(poblacion) % 2 == 1):
+        cota = len(poblacion) - 1
+    else:
+        cota = len(poblacion)
+    for i in range(0, cota, 2):
+        id_h1 = indices[i]
+        id_h2 = indices[i+1]
+        padre1 = poblacion[id_h1]
+        padre2 = poblacion[id_h2]
+        h1, h2 = cruza_intermedia_s(padre1, padre2, posicion, alfa)
+        nueva_poblacion.append(h1)
+        nueva_poblacion.append(h2)
+    return np.array(nueva_poblacion)
 
 # Cruza Binaria Simulada
 '''
@@ -91,15 +118,29 @@ def mutacion_no_uniforme(P, k, t, T, lbk, ubk, b=5):
 @return P1 -> Arreglo de dimensión p
 '''
 def mutacion_uniforme(P, k, lbk, ubk, nm, u=random.random()):
-
     delta = min(P[k]-lbk, ubk - P[k])/ubk - lbk
+    delta = 1
     if(u <= 0.5):
         delta_q = math.pow(2*u + (1 - 2*u)*(1 - delta**(nm+1)), 1/(nm+1))- 1
     else:
         delta_q = 1- math.pow(2*(1-u)+ 2*(u - 0.5)*math.pow(1-delta, nm+1), 1/(nm+1))
 
     vk = P[k] + delta_q * (ubk - lbk)
-    return P[:k]+[vk]+P[k+1:]
+    elemento = np.zeros(len(P))
+    for i in range(len(P)):
+        if(i != k):
+            elemento[i] = P[i]
+        else:
+            elemento[i] = vk
+    return elemento
+
+# Extensión de la mutación uniforme a una matriz de elementos
+def mutacion_uniforme_p(elementos, k, lbk, ubk, nm, u=random.random()):
+    hijos = []
+    for elemento in elementos:
+        elemento = mutacion_uniforme(elemento, k, lbk, ubk, nm, u)
+        hijos.append(elemento)
+    return np.array(hijos)
 
 # Mutación de límite
 '''
