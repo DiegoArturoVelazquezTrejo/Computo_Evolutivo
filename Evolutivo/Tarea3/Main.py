@@ -32,20 +32,23 @@ Repetir:
 '''
 
 # Inicialización de la población:
-tam_pob = 2000
+tam_pob = 1000
 radio_inicial = 100
-n_dim = 10
+
+# Función objetivo a optimizar
+n_dim = 10    # es 2 únicamente para la función 2 de la tarea, es 10 para las demás funciones
+F = f.rast
+
 # Parámetros del algoritmo K-means
-k = 5
+k = 6
 n_iter = 100
 
 poblacion = np.random.uniform(-radio_inicial, radio_inicial, (tam_pob, n_dim))
 
 # Parámetros del genético
-gen = 300
+gen = 500
 coef_mutacion = random.random()
 coef_cruza  = random.random()
-F = f.rosenbrock
 alfa = random.random()
 posicion = 5
 disparos = 10
@@ -62,9 +65,10 @@ colores = ['green', 'pink', 'blue', 'red', 'yellow', 'black', 'purple','orange',
 j = 0
 
 for agrupacion in agrupaciones:
-    agen = ag.AlgoritmoGenetico(agrupacion, gen, coef_mutacion, coef_cruza, F, alfa, posicion, disparos, colores[j], "AG-"+str(j) ,metodo)
-    algoritmos_geneticos.append(agen)
-    j += 1
+    if(len(agrupacion) != 0):
+        agen = ag.AlgoritmoGenetico(agrupacion, gen, coef_mutacion, coef_cruza, F, alfa, posicion, disparos, colores[j], "AG-"+str(j) ,metodo)
+        algoritmos_geneticos.append(agen)
+        j += 1
 
 # PARALELISMO ::: multithreading
 # Se manda a ejecutar cada algoritmo sobre un hilo:
@@ -76,7 +80,7 @@ def worker(num, agenetico):
     print('Número de hilo de ejecución: %s' % num)
     agenetico.main()
     agenetico.convergencia_optimos()
-    plt.show()
+    agenetico.to_csv()
     return
 
 # Este será el bloque de código que se ejecute una vez que se segmentó la población inicial
@@ -86,3 +90,7 @@ for i in range(k):
     t = threading.Thread(target=worker, args=(i,algoritmos_geneticos[i],))
     threads.append(t)
     t.start()
+
+for th in threads:
+    th.join()
+plt.show()

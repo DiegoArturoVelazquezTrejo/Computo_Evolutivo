@@ -37,5 +37,12 @@ def eggholder(X):
 def eason(X):
     return  -math.cos(X[0])*math.cos(X[1])*math.exp(-math.pow(X[0]-math.pi, 2)-math.pow(X[1]-math.pi, 2))
 
+
+# Función de la tarea 2 para estudiar la comparativa
+# Es en R^2
+def funcion_tarea2(X):
+    return  418.9829*2 - X[0]*math.sin(math.sqrt(abs(X[0]))) - X[1]*math.sin(math.sqrt(abs(X[1])))
+
+
 # Diccionario que podemos exportar para que otros archivos hagan uso de las funciones
-F = {"rast":rast, "ackley":ackley, "rosenbrock":rosenbrock, "eggholder":eggholder, "eason":eason}
+F = {"rast":rast, "ackley":ackley, "rosenbrock":rosenbrock, "eggholder":eggholder, "eason":eason, "f_tarea2":funcion_tarea2}

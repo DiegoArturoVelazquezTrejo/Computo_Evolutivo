@@ -61,7 +61,11 @@ class AlgoritmoGenetico:
         plt.title("Gráfico de convergencia")
         plt.grid()
         plt.legend()
-        plt.show()
+        #plt.show()
+
+    # Método para guardar los resultados en un csv file para estudiarlos después
+    def to_csv(self):
+        np.savetxt("./ResultadosOptimos/"+self.identificador+".csv", self.optimos, delimiter=",")
 
     # Método para obtener la nueva población
     def main(self):
@@ -131,9 +135,10 @@ class AlgoritmoGenetico:
             # Incorporación de los nuevos elementos
             self.poblacion = hijos
 
+        print("\n"+self.identificador)
         print("Aplicación del Algoritmo Memético :: {mem}".format(mem = self.ejecuciones_efectivas_memetico))
-        print("Óptimos por generación: ", end="")
-        print(self.optimos[:,-1])
+        #print("Óptimos por generación: ", end="")
+        #print(self.optimos[:,-1])
 
         indice_minimo_global = np.argmin(self.optimos[:,-1]) if(self.metodo == "minimizar") else np.argmax(self.optimos[:,-1])
         fenotipo = self.optimos[indice_minimo_global][-1]

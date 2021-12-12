@@ -280,7 +280,7 @@ nvars= 18
 pm = 0.01
 pc = 0.7
 npop = 50
-ngen = 500
+ngen = 100
 
 mejores_aptitudes = []
 
@@ -298,6 +298,9 @@ for i in range(1, 21):
 from matplotlib import pyplot as plt
 plt.plot(mejores_aptitudes)
 plt.show()
+
+
+# Tenemos que pasar a un csv las coordenadas x, y y su función en evaluación 
 
 '''
 Parámetros:
