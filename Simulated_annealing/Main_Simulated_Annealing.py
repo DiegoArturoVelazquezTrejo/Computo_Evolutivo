@@ -25,7 +25,7 @@ def copia(conjunto):
 # Variables que definiremos de acuerdo al problema
 T   = 350000
 IT0 = 1
-I   = 5000
+I   = 1000
 BETTA = 1/10
 
 # Necesito una estructura de datos para albergar los vecinos (YA)
