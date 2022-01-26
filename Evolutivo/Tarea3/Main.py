@@ -32,25 +32,26 @@ Repetir:
 '''
 
 # Inicialización de la población:
-tam_pob = 1000
-radio_inicial = 100
+tam_pob = 500
+radio_inicial = 20
 
 # Función objetivo a optimizar
-n_dim = 10    # es 2 únicamente para la función 2 de la tarea, es 10 para las demás funciones
-F = f.rast
+n_dim = 5    # es 2 únicamente para la función 2 de la tarea, es 10 para las demás funciones
+F = f.eggholder
+nom_func = "rast"
 
 # Parámetros del algoritmo K-means
-k = 6
+k = 4
 n_iter = 100
 
 poblacion = np.random.uniform(-radio_inicial, radio_inicial, (tam_pob, n_dim))
 
 # Parámetros del genético
-gen = 500
+gen = 1000
 coef_mutacion = random.random()
 coef_cruza  = random.random()
 alfa = random.random()
-posicion = 5
+posicion = 6
 disparos = 10
 metodo = "minimizar"
 
@@ -80,7 +81,7 @@ def worker(num, agenetico):
     print('Número de hilo de ejecución: %s' % num)
     agenetico.main()
     agenetico.convergencia_optimos()
-    agenetico.to_csv()
+    #agenetico.to_csv(num, nom_func)
     return
 
 # Este será el bloque de código que se ejecute una vez que se segmentó la población inicial

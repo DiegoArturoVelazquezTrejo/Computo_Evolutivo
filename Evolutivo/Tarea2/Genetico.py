@@ -273,34 +273,43 @@ def EA(F, pc, pm, nvars, npop, ngen):
     #print('Tabla de mejores fenotipos:\n', bf)
     #Regresar mejor solución
     idx = np.argmax(aptitudes)
-    return genotipos[idx], fenotipos[idx], aptitudes[idx], estad, ba
+    return genotipos[idx], fenotipos[idx], aptitudes[idx], estad, ba, mejores_aptitudes, mejores_fenotipos_tabla
 
 
 nvars= 18
 pm = 0.01
 pc = 0.7
 npop = 50
-ngen = 100
+ngen = 10000
 
 mejores_aptitudes = []
 
 #np.set_printoptions(formatter={'float': '{0: 0.3f}'.format})
-for i in range(1, 21):
-    genotipos, fenotipos, aptitudes, estad, ba = EA(F,pc, pm, nvars, npop, ngen)
-    mejores_aptitudes.append(ba[np.argmax(ba)])
+genotipos, fenotipos, aptitudes, estad, ba, ap, fen = EA(F,pc, pm, nvars, npop, ngen)
+#mejores_aptitudes.append(ba[np.argmax(ba)])
 
-    #Guardamos en un .txt toda la ejecución a mano
-    #arch = open("Estadisticas_No_Determinista/estadisticas{j}.txt".format(j = i), "a")
-    #arch.write(estad)
-    #arch.close()
+matriz = np.zeros((len(fen), 3))
+for i in range(len(matriz)):
+    coord = fen[i].replace(" ","").split(",")
+    matriz[i][0] = float(coord[0])
+    matriz[i][1] = float(coord[1])
+    matriz[i][2] = ap[i]
+print(matriz)
+
+#Guardamos en un .txt toda la ejecución a mano
+#arch = open("Estadisticas_No_Determinista/estadisticas{j}.txt".format(j = i), "a")
+#arch.write(estad)
+#arch.close()
 
 # Generaremos el gráfico de convergencia
-from matplotlib import pyplot as plt
-plt.plot(mejores_aptitudes)
-plt.show()
+#from matplotlib import pyplot as plt
+#plt.plot(mejores_aptitudes)
+#plt.show()
 
 
-# Tenemos que pasar a un csv las coordenadas x, y y su función en evaluación 
+# Tenemos que pasar a un csv las coordenadas x, y y su función en evaluación
+np.savetxt("../Tarea3/ResultadosOptimos/resultados-tarea2.csv", matriz, delimiter=",")
+
 
 '''
 Parámetros:

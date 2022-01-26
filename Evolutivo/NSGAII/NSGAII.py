@@ -162,7 +162,6 @@ def crowding_distance(frente, M):
     return dict(sorted( P.items(), key=lambda item: item[1]))
 
 
-'''
 
 poblacion = [
     ["A", 0, 1.0],
@@ -184,9 +183,9 @@ from matplotlib import pyplot as plt
 letras = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P"]
 
 poblacion = []
-for i in range(0, 200):
+for i in range(0, 50z):
     reng = [str(i)]
-    for j in range(0, 5):
+    for j in range(0, 2):
         reng.append(random.randint(1, 20))
     poblacion.append(reng)
 
@@ -209,7 +208,11 @@ for frente in frentes:
     j += 1
     for i,txt in enumerate(ids):
         ax.annotate(txt, (X[i], Y[i]))
+plt.ylabel("f1")
+plt.xlabel("f2")
+plt.title("Gráfica de las aptitudes")
+plt.grid()
+plt.legend()
 plt.show()
 
 print(crowding_distance(frentes[2], 5))
-'''
