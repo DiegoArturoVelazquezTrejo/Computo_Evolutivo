@@ -1,0 +1,360 @@
+Algoritmo: AG-0 
+Genotipo Máximo: [ 8.93639767 15.62497228], Fenotipo Máximo: -66.82622584041113
+Genotipo Mínimo: [ 8.44897592 15.62497228], Fenotipo Mínimo:-66.8436055256383
+Mean:-14.255290436464287, Desviación Estándar:37.30057536584915
+Algoritmo: AG-1 
+Genotipo Máximo: [3.42466629 7.98916637], Fenotipo Máximo: -54.80671293003439
+Genotipo Mínimo: [ 8.42227655 15.63007628], Fenotipo Mínimo:-66.8435278384986
+Mean:-14.302248515577446, Desviación Estándar:37.249777594439536
+Algoritmo: AG-2 
+Genotipo Máximo: [3.02638215 7.45043465], Fenotipo Máximo: -53.05204923211528
+Genotipo Mínimo: [ 8.51403002 15.78291925], Fenotipo Mínimo:-66.8405948782751
+Mean:-14.320633687139889, Desviación Estándar:37.20690735238352
+Algoritmo: AG-3 
+Genotipo Máximo: [-2.74330882 19.92561007], Fenotipo Máximo: -62.54960367995084
+Genotipo Mínimo: [-46.37690555  38.0228503 ], Fenotipo Mínimo:-126.42167994685418
+Mean:-44.725062271971595, Desviación Estándar:66.91202744567238
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [ 9.43037537 19.04737953], Fenotipo Máximo: -64.94957623231025
+Genotipo Mínimo: [ 8.31705853 15.67479268], Fenotipo Mínimo:-66.84229081398065
+Mean:-14.284579272930774, Desviación Estándar:37.28106903141322
+Algoritmo: AG-1 
+Genotipo Máximo: [-0.09671198 -1.44088995], Fenotipo Máximo: -20.30334721776593
+Genotipo Mínimo: [ 8.58112062 15.82861884], Fenotipo Mínimo:-66.83693114156193
+Mean:-14.103524148657838, Desviación Estándar:37.21998756970689
+Algoritmo: AG-2 
+Genotipo Máximo: [ 7.66993423 16.36499389], Fenotipo Máximo: -66.75255243657492
+Genotipo Mínimo: [ 8.2299434  15.68741719], Fenotipo Mínimo:-66.83997310220079
+Mean:-14.315798187202647, Desviación Estándar:37.26058065017282
+Algoritmo: AG-3 
+Genotipo Máximo: [-1.26263542  5.54160811], Fenotipo Máximo: -40.759596193975284
+Genotipo Mínimo: [ 8.32333949 15.67257689], Fenotipo Mínimo:-66.84241574925295
+Mean:-14.267638990657758, Desviación Estándar:37.24588260583293
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [ 9.05659386 16.32922718], Fenotipo Máximo: -66.73073803776501
+Genotipo Mínimo: [ 8.27278363 15.9531687 ], Fenotipo Mínimo:-66.83062296870575
+Mean:-14.200507084890372, Desviación Estándar:37.34676450997314
+Algoritmo: AG-1 
+Genotipo Máximo: [-5.25720605  7.90165841], Fenotipo Máximo: -39.32415372021481
+Genotipo Mínimo: [-46.49945323  38.1266602 ], Fenotipo Mínimo:-126.42360191998503
+Mean:-44.32510429354618, Desviación Estándar:66.74992958316567
+Algoritmo: AG-2 
+Genotipo Máximo: [3.65152466 5.05326312], Fenotipo Máximo: -47.61246659653888
+Genotipo Mínimo: [ 8.54648453 15.56177313], Fenotipo Mínimo:-66.84232231777693
+Mean:-14.243995954870558, Desviación Estándar:37.25395316510249
+Algoritmo: AG-3 
+Genotipo Máximo: [-11.53274394  28.79107008], Fenotipo Máximo: -65.07190351351544
+Genotipo Mínimo: [-46.67247411  38.15342666], Fenotipo Mínimo:-126.41921935612496
+Mean:-44.86111644426715, Desviación Estándar:67.12755721215157
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [14.0110572   8.62665956], Fenotipo Máximo: -57.86678971262667
+Genotipo Mínimo: [ 8.38818111 15.50643053], Fenotipo Mínimo:-66.83987009202177
+Mean:-14.307746443960314, Desviación Estándar:37.240006834095375
+Algoritmo: AG-1 
+Genotipo Máximo: [10.14224456 12.56176924], Fenotipo Máximo: -65.42913766872738
+Genotipo Mínimo: [ 8.52490577 15.69643472], Fenotipo Mínimo:-66.84291601371264
+Mean:-14.271828829694739, Desviación Estándar:37.285696776813
+Algoritmo: AG-2 
+Genotipo Máximo: [ 8.98175183 15.18415618], Fenotipo Máximo: -66.8015184720873
+Genotipo Mínimo: [ 8.35120657 15.85186194], Fenotipo Mínimo:-66.83804692962937
+Mean:-14.25410884375365, Desviación Estándar:37.30741527548038
+Algoritmo: AG-3 
+Genotipo Máximo: [1.41589349 4.88943562], Fenotipo Máximo: -43.81642853305784
+Genotipo Mínimo: [ 8.41066524 15.66609804], Fenotipo Mínimo:-66.84355239914832
+Mean:-14.27188338264752, Desviación Estándar:37.204666540355106
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [ 7.45876073 -0.55223306], Fenotipo Máximo: -33.04113195644743
+Genotipo Mínimo: [ 8.42102185 15.64244854], Fenotipo Mínimo:-66.84359314935892
+Mean:-14.326983657909013, Desviación Estándar:37.172209152481756
+Algoritmo: AG-1 
+Genotipo Máximo: [ 3.3439138 19.7900526], Fenotipo Máximo: -64.30314268200536
+Genotipo Mínimo: [ 8.32717064 16.04845067], Fenotipo Mínimo:-66.82209691396947
+Mean:-14.157454719076393, Desviación Estándar:37.36439021302174
+Algoritmo: AG-2 
+Genotipo Máximo: [ 8.66800569 14.97881335], Fenotipo Máximo: -66.78152845114253
+Genotipo Mínimo: [ 8.5160228  15.66103382], Fenotipo Mínimo:-66.84340472786512
+Mean:-14.270824315196927, Desviación Estándar:37.29288466828992
+Algoritmo: AG-3 
+Genotipo Máximo: [9.0686992 6.4841465], Fenotipo Máximo: -55.36392427716994
+Genotipo Mínimo: [ 8.16433306 15.56991133], Fenotipo Mínimo:-66.83506281381698
+Mean:-14.388319899668737, Desviación Estándar:37.172973594243665
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [ 7.99626431 16.64887241], Fenotipo Máximo: -66.70705349093248
+Genotipo Mínimo: [ 8.53390698 15.7525432 ], Fenotipo Mínimo:-66.84140103297459
+Mean:-14.197814691796077, Desviación Estándar:37.33477971342767
+Algoritmo: AG-1 
+Genotipo Máximo: [ 0.03599465 19.46375643], Fenotipo Máximo: -63.536493950420905
+Genotipo Mínimo: [ 8.42549265 15.69717808], Fenotipo Mínimo:-66.8434011463488
+Mean:-14.246205130310186, Desviación Estándar:37.291431058825516
+Algoritmo: AG-2 
+Genotipo Máximo: [-0.57825022  0.02561192], Fenotipo Máximo: -24.37452164463169
+Genotipo Mínimo: [ 8.32856046 15.77952326], Fenotipo Mínimo:-66.84085477492668
+Mean:-14.215924446524339, Desviación Estándar:37.13921559109518
+Algoritmo: AG-3 
+Genotipo Máximo: [19.07960888  5.85878783], Fenotipo Máximo: -44.14327889986332
+Genotipo Mínimo: [ 8.39875876 15.66021662], Fenotipo Mínimo:-66.84346979111946
+Mean:-14.22475380755224, Desviación Estándar:37.28721274924593
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [-4.89822398  4.93992432], Fenotipo Máximo: -30.814654594231477
+Genotipo Mínimo: [ 8.47505699 15.65453159], Fenotipo Mínimo:-66.8436870079059
+Mean:-14.268144444436917, Desviación Estándar:37.19745206584894
+Algoritmo: AG-1 
+Genotipo Máximo: [ 0.09688869 19.1640224 ], Fenotipo Máximo: -63.62315535180942
+Genotipo Mínimo: [ 8.39256032 15.72672415], Fenotipo Mínimo:-66.84280088462997
+Mean:-14.243531449421301, Desviación Estándar:37.30204802094274
+Algoritmo: AG-2 
+Genotipo Máximo: [-1.60485589  5.42711119], Fenotipo Máximo: -39.721857890867945
+Genotipo Mínimo: [ 8.7267225 15.6425974], Fenotipo Mínimo:-66.83815611017609
+Mean:-14.137966971984515, Desviación Estándar:37.29229897819851
+Algoritmo: AG-3 
+Genotipo Máximo: [ 8.0892548  15.10944784], Fenotipo Máximo: -66.78149410983019
+Genotipo Mínimo: [ 8.55905944 15.69659175], Fenotipo Mínimo:-66.84239135330802
+Mean:-14.222491456066148, Desviación Estándar:37.31799515974456
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [18.56611392  9.92180604], Fenotipo Máximo: -52.99457183564374
+Genotipo Mínimo: [ 8.38398597 15.53381934], Fenotipo Mínimo:-66.84092364692206
+Mean:-14.302331765556579, Desviación Estándar:37.23034082770342
+Algoritmo: AG-1 
+Genotipo Máximo: [ 9.64368007 15.54649366], Fenotipo Máximo: -66.73535512667057
+Genotipo Mínimo: [ 8.42817685 15.73689604], Fenotipo Mínimo:-66.84270371004347
+Mean:-14.219651674568322, Desviación Estándar:37.327335374015675
+Algoritmo: AG-2 
+Genotipo Máximo: [0.07450717 3.21948714], Fenotipo Máximo: -36.288357469804644
+Genotipo Mínimo: [ 8.55448865 15.53084558], Fenotipo Mínimo:-66.84144543368542
+Mean:-13.982302390246408, Desviación Estándar:37.11463659947147
+Algoritmo: AG-3 
+Genotipo Máximo: [ 8.39587187 14.86718096], Fenotipo Máximo: -66.75265163608043
+Genotipo Mínimo: [ 8.60244927 15.58694016], Fenotipo Mínimo:-66.84191848286345
+Mean:-14.227846589313858, Desviación Estándar:37.31256426014661
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [ 6.88588712 16.2888843 ], Fenotipo Máximo: -66.6583170797787
+Genotipo Mínimo: [ 8.3624423  15.53607663], Fenotipo Mínimo:-66.84061113225904
+Mean:-14.318479871248844, Desviación Estándar:37.25338577918846
+Algoritmo: AG-1 
+Genotipo Máximo: [-4.65953897  5.63673223], Fenotipo Máximo: -33.63578211678449
+Genotipo Mínimo: [ 8.38678135 15.71569532], Fenotipo Mínimo:-66.84294897282595
+Mean:-14.277541248266996, Desviación Estándar:37.166592140823994
+Algoritmo: AG-2 
+Genotipo Máximo: [18.01728954  3.96841921], Fenotipo Máximo: -41.355415121727304
+Genotipo Mínimo: [ 8.48133379 15.63104312], Fenotipo Mínimo:-66.84363715868878
+Mean:-14.209941754963062, Desviación Estándar:37.279555391536874
+Algoritmo: AG-3 
+Genotipo Máximo: [ 7.87655052 16.91896502], Fenotipo Máximo: -66.62396495176543
+Genotipo Mínimo: [ 8.52237529 15.61532487], Fenotipo Mínimo:-66.84331252815315
+Mean:-14.319051604695268, Desviación Estándar:37.24750403576198
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [-0.34754617 18.84539834], Fenotipo Máximo: -63.467505343582815
+Genotipo Mínimo: [ 8.58161856 15.59605364], Fenotipo Mínimo:-66.84239760484616
+Mean:-14.219657816282155, Desviación Estándar:37.30889762527658
+Algoritmo: AG-1 
+Genotipo Máximo: [ 7.87682185 15.65084857], Fenotipo Máximo: -66.81813116014776
+Genotipo Mínimo: [ 8.53518363 15.53492037], Fenotipo Mínimo:-66.84172522034383
+Mean:-14.262357742370968, Desviación Estándar:37.28907627396637
+Algoritmo: AG-2 
+Genotipo Máximo: [ 0.26935063 -1.0487105 ], Fenotipo Máximo: -22.37418309721203
+Genotipo Mínimo: [ 8.44441277 15.67386081], Fenotipo Mínimo:-66.84364283540049
+Mean:-14.111827649854046, Desviación Estándar:37.1985630456664
+Algoritmo: AG-3 
+Genotipo Máximo: [7.63655276 6.06543995], Fenotipo Máximo: -53.87500369599849
+Genotipo Mínimo: [ 8.48750247 15.63556898], Fenotipo Mínimo:-66.84363322900228
+Mean:-14.28122421205615, Desviación Estándar:37.249879731690626
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [8.88890086 2.71766275], Fenotipo Máximo: -44.70737261722456
+Genotipo Mínimo: [ 8.29638684 15.511579  ], Fenotipo Mínimo:-66.83786540905685
+Mean:-14.336040940279764, Desviación Estándar:37.193534638999985
+Algoritmo: AG-1 
+Genotipo Máximo: [10.81513637  4.63960193], Fenotipo Máximo: -50.464140104057414
+Genotipo Mínimo: [ 8.57162158 15.43107647], Fenotipo Mínimo:-66.83689247231872
+Mean:-14.271696219996517, Desviación Estándar:37.223910645870475
+Algoritmo: AG-2 
+Genotipo Máximo: [ 0.86061435 17.7782613 ], Fenotipo Máximo: -64.0520111090913
+Genotipo Mínimo: [ 8.4661295  15.83333665], Fenotipo Mínimo:-66.83882670219462
+Mean:-14.176948067548304, Desviación Estándar:37.35257389136203
+Algoritmo: AG-3 
+Genotipo Máximo: [ 8.2452396  15.49337319], Fenotipo Máximo: -66.83509445665685
+Genotipo Mínimo: [ 8.54025755 15.70505222], Fenotipo Mínimo:-66.84254613767105
+Mean:-14.24567501719596, Desviación Estándar:37.30584517538294
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [-0.395503   18.49923139], Fenotipo Máximo: -63.43778161407403
+Genotipo Mínimo: [ 8.42476918 15.64461392], Fenotipo Mínimo:-66.8436222301068
+Mean:-14.257696535564024, Desviación Estándar:37.29127627253961
+Algoritmo: AG-1 
+Genotipo Máximo: [ 7.85650693 16.09132847], Fenotipo Máximo: -66.80175679965087
+Genotipo Mínimo: [ 8.57445582 15.68498021], Fenotipo Mínimo:-66.84229428968342
+Mean:-14.193802247132744, Desviación Estándar:37.340996454369545
+Algoritmo: AG-2 
+Genotipo Máximo: [-6.27111362  5.91081433], Fenotipo Máximo: -30.717942477746178
+Genotipo Mínimo: [ 8.60131376 15.4724291 ], Fenotipo Mínimo:-66.83869637631747
+Mean:-14.250967829353407, Desviación Estándar:37.196647308776186
+Algoritmo: AG-3 
+Genotipo Máximo: [-1.31576958  8.23566991], Fenotipo Máximo: -48.09540346653077
+Genotipo Mínimo: [ 8.29481133 15.52392617], Fenotipo Mínimo:-66.83838563141761
+Mean:-14.331011754852643, Desviación Estándar:37.21636931831218
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [ 8.69905647 16.11906709], Fenotipo Máximo: -66.80222767501174
+Genotipo Mínimo: [ 8.30706797 15.72707859], Fenotipo Mínimo:-66.8417019753605
+Mean:-14.268168751841246, Desviación Estándar:37.298210515792626
+Algoritmo: AG-1 
+Genotipo Máximo: [-2.93370823  8.90222716], Fenotipo Máximo: -46.804729929668504
+Genotipo Mínimo: [ 8.47869145 15.64174445], Fenotipo Mínimo:-66.84367803216276
+Mean:-14.155341123168945, Desviación Estándar:37.309588765894645
+Algoritmo: AG-2 
+Genotipo Máximo: [ 6.70348034 19.24890071], Fenotipo Máximo: -65.1337883074221
+Genotipo Mínimo: [ 8.61326521 15.66326252], Fenotipo Mínimo:-66.84171262837211
+Mean:-14.206009516203352, Desviación Estándar:37.32314692518624
+Algoritmo: AG-3 
+Genotipo Máximo: [16.66314934  1.32292931], Fenotipo Máximo: -35.59123320575419
+Genotipo Mínimo: [ 8.66884332 15.70371967], Fenotipo Mínimo:-66.83931452568444
+Mean:-14.175800025168622, Desviación Estándar:37.26621813917393
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [ 7.7357436  16.09867655], Fenotipo Máximo: -66.79198484635761
+Genotipo Mínimo: [ 8.57684699 15.68228996], Fenotipo Mínimo:-66.84228700907387
+Mean:-14.193568020985435, Desviación Estándar:37.34092532521533
+Algoritmo: AG-1 
+Genotipo Máximo: [ 1.09551439 19.01817087], Fenotipo Máximo: -64.04785300602488
+Genotipo Mínimo: [ 8.72101337 15.57348821], Fenotipo Mínimo:-66.83837120464696
+Mean:-14.204358002945025, Desviación Estándar:37.31538198328041
+Algoritmo: AG-2 
+Genotipo Máximo: [0.13260951 6.79149978], Fenotipo Máximo: -46.923710657490325
+Genotipo Mínimo: [ 8.36216526 15.3615623 ], Fenotipo Mínimo:-66.82964914219666
+Mean:-13.942583282365115, Desviación Estándar:37.31195983625324
+Algoritmo: AG-3 
+Genotipo Máximo: [11.84650202  6.55019232], Fenotipo Máximo: -55.069145131866726
+Genotipo Mínimo: [ 8.33484859 15.80072197], Fenotipo Mínimo:-66.84020896498684
+Mean:-14.354496511000713, Desviación Estándar:37.18845340288755
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [ 5.99987477 14.08281343], Fenotipo Máximo: -65.83420791746276
+Genotipo Mínimo: [ 8.35178291 15.6537845 ], Fenotipo Mínimo:-66.84287967479912
+Mean:-14.24528180485491, Desviación Estándar:37.30154572362511
+Algoritmo: AG-1 
+Genotipo Máximo: [ 9.18363441 15.02707122], Fenotipo Máximo: -66.76547016292128
+Genotipo Mínimo: [ 8.41006409 15.74056485], Fenotipo Mínimo:-66.84258761263794
+Mean:-14.230351396357921, Desviación Estándar:37.322288387576066
+Algoritmo: AG-2 
+Genotipo Máximo: [4.21299909 7.62655073], Fenotipo Máximo: -54.8934950098112
+Genotipo Mínimo: [ 8.49134562 15.66922731], Fenotipo Mínimo:-66.84354785424762
+Mean:-14.284941120192567, Desviación Estándar:37.245420399480516
+Algoritmo: AG-3 
+Genotipo Máximo: [-0.94150073  8.94576691], Fenotipo Máximo: -50.505497017586
+Genotipo Mínimo: [ 8.48533887 15.82429784], Fenotipo Mínimo:-66.83908191091477
+Mean:-14.21953152601061, Desviación Estándar:37.27974080512363
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [-1.45821082 19.32871534], Fenotipo Máximo: -62.98732578574494
+Genotipo Mínimo: [ 8.5274679  15.41781751], Fenotipo Mínimo:-66.83625633689442
+Mean:-14.312491387200662, Desviación Estándar:37.25661889159626
+Algoritmo: AG-1 
+Genotipo Máximo: [-1.93011712  1.01676652], Fenotipo Máximo: -24.80005097865922
+Genotipo Mínimo: [ 8.33604962 15.59746622], Fenotipo Mínimo:-66.84187253961812
+Mean:-14.285010915685264, Desviación Estándar:37.18623671657559
+Algoritmo: AG-2 
+Genotipo Máximo: [ 7.67680916 15.75027604], Fenotipo Máximo: -66.80023612437108
+Genotipo Mínimo: [ 8.56885074 15.61579057], Fenotipo Mínimo:-66.84275320275778
+Mean:-14.219842853357472, Desviación Estándar:37.32085535462085
+Algoritmo: AG-3 
+Genotipo Máximo: [9.12527738 7.3980434 ], Fenotipo Máximo: -57.49411743065638
+Genotipo Mínimo: [ 8.35558606 15.75214341], Fenotipo Mínimo:-66.84193834498684
+Mean:-14.271269801727115, Desviación Estándar:37.27064292735237
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [7.8957957  4.99970542], Fenotipo Máximo: -51.167843612274666
+Genotipo Mínimo: [ 8.44794408 15.59205148], Fenotipo Mínimo:-66.84318595702335
+Mean:-14.250847047325308, Desviación Estándar:37.25038139055744
+Algoritmo: AG-1 
+Genotipo Máximo: [ 8.9879799  15.36346162], Fenotipo Máximo: -66.81648442734598
+Genotipo Mínimo: [ 8.6007984  15.67265074], Fenotipo Mínimo:-66.84190104599492
+Mean:-14.292994151014305, Desviación Estándar:37.28411411499661
+Algoritmo: AG-2 
+Genotipo Máximo: [-0.59075057 19.65682905], Fenotipo Máximo: -63.27437660149389
+Genotipo Mínimo: [ 8.50519405 15.56445225], Fenotipo Mínimo:-66.84265370026088
+Mean:-14.300016906028747, Desviación Estándar:37.23501957202483
+Algoritmo: AG-3 
+Genotipo Máximo: [-0.34732964 -0.08959077], Fenotipo Máximo: -24.455416698673098
+Genotipo Mínimo: [ 8.26612569 15.68038224], Fenotipo Mínimo:-66.84106731063818
+Mean:-14.269492400606289, Desviación Estándar:37.13850402298095
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [ 8.80441806 15.30264486], Fenotipo Máximo: -66.82226117363568
+Genotipo Mínimo: [ 8.47678691 15.60894802], Fenotipo Mínimo:-66.84347183023557
+Mean:-14.253696940790915, Desviación Estándar:37.29832352684354
+Algoritmo: AG-1 
+Genotipo Máximo: [-1.51617949 19.12457246], Fenotipo Máximo: -62.955237673062776
+Genotipo Mínimo: [ 8.46188786 15.54178495], Fenotipo Mínimo:-66.84202184883817
+Mean:-14.356076253336807, Desviación Estándar:37.20710477135056
+Algoritmo: AG-2 
+Genotipo Máximo: [6.67203762 3.01970218], Fenotipo Máximo: -44.63281158593053
+Genotipo Mínimo: [ 8.39895483 15.67201295], Fenotipo Mínimo:-66.84345220453686
+Mean:-14.252928280639445, Desviación Estándar:37.2686583308987
+Algoritmo: AG-3 
+Genotipo Máximo: [12.14389632  7.69245942], Fenotipo Máximo: -57.481422860975485
+Genotipo Mínimo: [ 8.36100553 15.61314464], Fenotipo Mínimo:-66.84263052870384
+Mean:-14.293934699139712, Desviación Estándar:37.24613666589769
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [-2.19562054 19.88352704], Fenotipo Máximo: -62.71936489579738
+Genotipo Mínimo: [-46.10809776  38.11109544], Fenotipo Mínimo:-126.41238817248654
+Mean:-44.579000471842704, Desviación Estándar:66.90273615709705
+Algoritmo: AG-1 
+Genotipo Máximo: [17.95518479  2.14939459], Fenotipo Máximo: -36.31683951731463
+Genotipo Mínimo: [ 8.43313258 15.68515956], Fenotipo Mínimo:-66.84354298428438
+Mean:-14.219163307574485, Desviación Estándar:37.2649152669482
+Algoritmo: AG-2 
+Genotipo Máximo: [ 9.40079227 15.38803932], Fenotipo Máximo: -66.7738434870845
+Genotipo Mínimo: [ 8.36720097 15.6600358 ], Fenotipo Mínimo:-66.84312444448699
+Mean:-14.278531615306704, Desviación Estándar:37.28509672069694
+Algoritmo: AG-3 
+Genotipo Máximo: [ 6.19976298 -3.50716259], Fenotipo Máximo: -21.374044941532393
+Genotipo Mínimo: [-46.3077086   38.27667878], Fenotipo Mínimo:-126.41526054061453
+Mean:-44.087387066742416, Desviación Estándar:66.7290618965366
+
+
+Algoritmo: AG-0 
+Genotipo Máximo: [3.82217911 7.79877019], Fenotipo Máximo: -54.8463800737326
+Genotipo Mínimo: [ 8.36200348 15.75042105], Fenotipo Mínimo:-66.84204585994006
+Mean:-14.278434887928373, Desviación Estándar:37.25716052500789
+Algoritmo: AG-1 
+Genotipo Máximo: [14.82049195  3.91257708], Fenotipo Máximo: -45.68625972264812
+Genotipo Mínimo: [ 8.48311494 15.57789166], Fenotipo Mínimo:-66.84298444247342
+Mean:-14.332787411540448, Desviación Estándar:37.15986427777771
+Algoritmo: AG-2 
+Genotipo Máximo: [-8.74237386 27.90684959], Fenotipo Máximo: -61.6658219071518
+Genotipo Mínimo: [-46.60387855  38.20944601], Fenotipo Mínimo:-126.42098001304848
+Mean:-44.82644773657092, Desviación Estándar:67.01763696093273
+Algoritmo: AG-3 
+Genotipo Máximo: [ 8.54824987 15.84838331], Fenotipo Máximo: -66.83659475181344
+Genotipo Mínimo: [ 8.54824987 15.48555195], Fenotipo Mínimo:-66.83982803378353
+Mean:-14.267750536410203, Desviación Estándar:37.281860212079906
+
+

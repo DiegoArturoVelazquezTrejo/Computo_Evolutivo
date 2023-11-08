@@ -2,7 +2,7 @@
 Implementación de una heurística para la optimización de problemas.
 
 Simulated Annealing (Recocido Simulado)
-Materia de Cómputo Evolutivo, 5to semestre, Facultad de Ciencias, UNAM.
+Materia de Complejidad Computacional, 8to semestre, Facultad de Ciencias, UNAM.
 
 @author Diego Velázquez Trejo
 
@@ -59,7 +59,6 @@ def Simulated_Annealing(T, V, F, Fs, I0, IT0, E, I, subiteraciones, tec= "minimi
             promedio_elementos_totales += 0
         # Alteración (propuesta) al algoritmo (Vamos a ir iterando más veces conforme la temperatura sea mayor)
         for i in range(0, subiteraciones):
-            print(est.toString())
             sig = Fs(est, V)   # La función nos seleccionará un elemento del conjunto de vecinos dado un elemento que ya tengamos
             delta_E = F(sig) - F(est) # Obtenemos la diferencia numérica entre el elemento que tenemos y el vecino del mismo
 

@@ -81,7 +81,7 @@ def worker(num, agenetico):
     print('Número de hilo de ejecución: %s' % num)
     agenetico.main()
     #agenetico.convergencia_optimos()
-    agenetico.to_csv(num, "_Lagrange_Optimization_")
+    #agenetico.to_csv(num, "_Lagrange_Optimization_")
     return
 
 # Este será el bloque de código que se ejecute una vez que se segmentó la población inicial

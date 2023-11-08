@@ -1,10 +1,7 @@
 '''
 Implementación de una mochila para el problema de la Mochila (optimización).
-
 Materia de Cómputo Evolutivo, 5to semestre, Facultad de Ciencias, UNAM.
-
 @author Diego Velázquez Trejo
-
 '''
 import random
 

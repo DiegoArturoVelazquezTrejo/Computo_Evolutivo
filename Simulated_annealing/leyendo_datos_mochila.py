@@ -4,7 +4,7 @@ los pesos de los objetos junto con su valor
 '''
 
 # Le podemos pasar como parámetro de entrada el nombre del archivo
-archivo = open("./Mochila_T1/ks_50_1", "r")
+archivo = open("./Mochila_T1/ks_10000_0", "r")
 
 # Vamos a iterar sobre cada línea y almacenar la información que contienen
 lineas = archivo.read().split("\n")

@@ -1,10 +1,7 @@
 '''
 Programa Main para la optimización del problema de la mochila
-
 Materia de Cómputo Evolutivo, 5to semestre, Facultad de Ciencias, UNAM.
-
 @author Diego Velázquez Trejo
-
 '''
 from simulated_annealing import Simulated_Annealing
 from leyendo_datos_mochila import CONJUNTO_OBJETOS
@@ -78,7 +75,6 @@ def decrece_temperatura(T):
 Necesitamos que la función que regrese un número positivo en caso en que la propuesta a nueva mochila sea mejor, un número negativo en caso opuesto.
 Observaciones:
 Para ver qué mochila es más óptima, si M0 o M1, entonces M1 tiene que ser M0 con otro elemento
-
 '''
 # Función objetivo
 def F(M):
